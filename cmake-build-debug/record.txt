@@ -1,0 +1,48 @@
+****************************
+		calculation date  
+		May  3 2020
+****************************
+
+the total number of invoices:  14
+The sum of 1 invoice:  544
+The sum of 2 invoice:  1673
+The sum of 3 invoice:  333
+The sum of 4 invoice:  111
+The sum of 5 invoice:  398
+The sum of 6 invoice:  850
+The sum of 7 invoice:  217
+The sum of 8 invoice:  155
+The sum of 9 invoice:  4733
+The sum of 10 invoice:  4151
+The sum of 11 invoice:  3865
+The sum of 12 invoice:  555
+The sum of 13 invoice:  1198
+The sum of 14 invoice:  1907
+the total sum of invoices is:  20690
+
+****************************
+		calculation date and time 
+		May  3 2020
+		15:43:57
+****************************
+
+the total number of invoices:  5
+The sum of 1 invoice:  172
+The sum of 2 invoice:  656
+The sum of 3 invoice:  15578
+The sum of 4 invoice:  9310
+The sum of 5 invoice:  642
+the total sum of invoices is:  26358
+
+**************************************
+		calculation date and time 
+		May  3 2020
+		15:47:34
+**************************************
+
+the total number of invoices:  3
+The sum of 1 invoice:  1204
+The sum of 2 invoice:  1130
+The sum of 3 invoice:  3440
+the total sum of invoices is:  5774
+
