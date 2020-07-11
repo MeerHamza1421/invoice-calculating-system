@@ -1,7 +1,18 @@
+import datetime
+
+
+
 def interface():
     print("************************************************************"
          "************\n\t\tWelcome to invoice calculation program\n************************************************************************\n")
+def saveData(sumData, totalSum, numberOfinvoice):
+    file=open("record.txt","a")
+    curTime = datetime.datetime.now()
+    file.write(f"****************************************************\n\t\t\t{curTime}\n****************************************************\n\n")
+    for i in range(numberOfinvoice):
+        file.write(f"The sum of {i+1} invoice:\t{sumData[i]} \n")
 
+    file.write(f" the total sum of  {numberOfinvoice}  invoices is:\t {totalSum} \n")
 interface()
 numberOfinvoice=int(input("Enter the number of invoices:\t"))
 sum=[None]*numberOfinvoice
@@ -41,3 +52,4 @@ print("\n\n\t\t*********************************\n\t\t"
 for i in range(numberOfinvoice):
     print("the sum of items of ", i + 1, " invoice is:\n", sum[i])
 print("Total sum of all invoices",totalSum)
+saveData(sum,totalSum,numberOfinvoice)
