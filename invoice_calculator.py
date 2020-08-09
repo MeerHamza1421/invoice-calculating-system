@@ -21,7 +21,7 @@ interface()
 
 #                       Declaring required variables and arrays
 
-numberOfinvoice=int(input("Enter the number of invoices:\t"))
+numberOfinvoice=int(input("Enter the total number of invoices:\t"))
 sum=[None]*numberOfinvoice
 invoice=[[None]]*numberOfinvoice
 numberOfitems=[None]*numberOfinvoice
@@ -31,7 +31,8 @@ totalSum=0
 #                       initialize by initial values to assist calculation
 
 for i in range(numberOfinvoice):
-    numberOfitems[i] = int(input("enter the number of items:\t"))
+    print("enter the number of  items of ",i+1," invoice:\t",end="")
+    numberOfitems[i] = int(input())
     invoice[i] = [None] * numberOfitems[i]
     sum[i]=0.0
 
